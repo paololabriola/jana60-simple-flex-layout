@@ -1,0 +1,52 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Commons */
+body{
+    background-color: #0f0e17;
+    color: white;
+    font-family: 'Fredoka One', sans-serif;
+}
+h1,h2{
+    color: #e53270;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+h3{
+    color: #fd8906;
+    margin-bottom: 10px;
+}
+/* Layout */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    width: 32%;
+    padding: 10px;
+    text-align: center;
+}
+.item img{
+    height: 150px;
+}
+/* Header */
+header{
+   
+    align-items: flex-end;
+    display: flex;
+}
+/* Main */
+main{
+    margin-top: 1000px;
+}
+/* Footer */
+footer{
+    margin-top: 20px;
+}
